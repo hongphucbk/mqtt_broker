@@ -1,19 +1,5 @@
 require('dotenv').config()
-const aedes = require('aedes')({
-  authenticate: (client, username, password, callback) => {
-
-
-
-  },
-  authorizePublish: (client, packet, callback) => {
-
-  },
-
-  authorizeSubscribe: (client, packet, callback) => {
-
-  }
-
-})
+const aedes = require('aedes')()
 
 const server = require('net').createServer(aedes.handle)
 const port = process.env.MQTT_BROKER_PORT
