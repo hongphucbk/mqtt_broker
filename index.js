@@ -1,6 +1,13 @@
 require('dotenv').config()
 const aedes = require('aedes')()
 
+aedes.authenticate = function(client, username, password, callback) {
+  console.log('Client connected. Login ...');
+  //console.log(password.toString());
+  callback(null, username === 'iot2021' && password.toString() === 'iot2021');
+}
+
+
 const server = require('net').createServer(aedes.handle)
 const port = process.env.MQTT_BROKER_PORT
 
@@ -10,11 +17,13 @@ server.listen(port, function () {
 
 
 aedes.on('clientError', function (client, err) {
-  console.log('client error', client.id, err.message, err.stack)
+  //console.log('client error', client.id, err.message, err.stack)
+  console.log('client error')
 })
 
 aedes.on('connectionError', function (client, err) {
-  console.log('client error', client, err.message, err.stack)
+  //console.log('client error', client, err.message, err.stack)
+  console.log('client error')
 })
 
 aedes.on('publish', function (packet, client) {
