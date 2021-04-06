@@ -7,7 +7,6 @@ aedes.authenticate = function(client, username, password, callback) {
   callback(null, username === 'iot2021' && password.toString() === 'iot2021');
 }
 
-
 const server = require('net').createServer(aedes.handle)
 const port = process.env.MQTT_BROKER_PORT
 
