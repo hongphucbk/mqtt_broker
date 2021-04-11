@@ -1,2 +1,12 @@
 2021-04-06 22:53:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\index.js" --scriptoptions= --log "Mqtt_Broker wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2021-04-06 22:53:26 - Started 9964
+2021-04-07 21:55:23 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\index.js" --scriptoptions= --log "Mqtt_Broker wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-07 21:55:24 - Started 4308
+2021-04-08 19:05:52 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\index.js" --scriptoptions= --log "Mqtt_Broker wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-08 19:05:52 - Started 4484
+2021-04-09 17:41:45 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\index.js" --scriptoptions= --log "Mqtt_Broker wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-09 17:41:46 - Started 4516
+2021-04-10 12:56:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\index.js" --scriptoptions= --log "Mqtt_Broker wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-10 12:56:26 - Started 4896
+2021-04-11 19:03:44 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\Win10PHP\Desktop\New folder\iot_project\mqtt_broker\index.js" --scriptoptions= --log "Mqtt_Broker wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-04-11 19:03:44 - Started 4372

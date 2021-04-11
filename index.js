@@ -41,4 +41,7 @@ aedes.on('client', function (client) {
   console.log('new client', client.id)
 })
 
+aedes.on("message", (topic, message) => {
+    console.log(`MQTT Client Message.  Topic: ${topic}.  Message: ${message.toString()}`);
+});
 
